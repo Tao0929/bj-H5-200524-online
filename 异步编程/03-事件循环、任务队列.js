@@ -63,3 +63,18 @@ function func3() {
 }
 
 func3();
+
+
+//同步回调反复 dart golang
+[1.2,3,4].forEach(value=>{
+    console.log(value)
+})
+
+
+//异步回调 异步参与 calllback
+// handler 异步回调方法
+setTimeout(()=>{
+
+},1000)
+
+//写项目
