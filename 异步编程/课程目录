@@ -1,0 +1,10 @@
+
+课程目录 
+
+1、JS异步编程机制及原理 (掌握)
+2、JS异步编程的方式 (掌握)
+   es6 promise
+   es6 generator
+   es7 async/awiat 
+3、手写基于PromiseA+规范的库 (思想)
+   es6 MyPromise
