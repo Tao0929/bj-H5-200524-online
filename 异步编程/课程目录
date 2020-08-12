@@ -8,3 +8,7 @@
    es7 async/awiat 
 3、手写基于PromiseA+规范的库 (思想)
    es6 MyPromise
+
+   promise es6 -> PromiseA+
+   angular q 
+   

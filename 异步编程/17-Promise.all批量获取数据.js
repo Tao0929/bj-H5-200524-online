@@ -7,12 +7,14 @@
  * all 必须是所有都是resolved状态
  */
 
+ // node promise 
+
 let p1 = new Promise((resolve,reject)=>{
     resolve(1)
 })
  
 let p2 = new Promise((resolve,reject)=>{
-    resolve(2)
+    reject(2)
 })
  
 Promise.all([p1,p2])
