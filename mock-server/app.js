@@ -17,6 +17,20 @@ app.get("/user",async (req,res)=>{
     })
 })
 
+app.get("/role", async(req,res)=>{
+    res.json({
+        roleid:1,
+        roles:["管理员","DBA"]
+    })
+})
+
+app.get("/resources", async(req,res)=>{
+    res.json({
+        sid:1,
+        list:["product","photo"]
+    })
+})
+
 app.post("/user",async (req,res)=>{
     let data = req.body
     res.json(data)
