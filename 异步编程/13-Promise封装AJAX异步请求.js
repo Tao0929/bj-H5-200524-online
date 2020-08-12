@@ -14,6 +14,9 @@ function ajaxCb(url, cb) {
     xhr.onload = function () {
         cb(JSON.parse(xhr.responseText))
     }
+    xhr.onloadend = function(){
+        
+    }
     xhr.onerror = function (err) {
         console.log(err)
     }
